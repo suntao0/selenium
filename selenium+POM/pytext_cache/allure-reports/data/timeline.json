@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-940K88L",
+    "children" : [ {
+      "name" : "572-MainThread",
+      "children" : [ {
+        "name" : "test_01[utxt0]",
+        "uid" : "f36be17f1d1929be",
+        "parentUid" : "11a1f5674f6f761272a32f79db54cc9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626270164823,
+          "stop" : 1626270173779,
+          "duration" : 8956
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'uname': 'qiushui', 'pwd': 123456}" ]
+      }, {
+        "name" : "test_02",
+        "uid" : "d83c8ccf46756b55",
+        "parentUid" : "11a1f5674f6f761272a32f79db54cc9b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626270164289,
+          "stop" : 1626270164519,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11a1f5674f6f761272a32f79db54cc9b"
+    } ],
+    "uid" : "0da45a7dc58cb34eec3f105f1e151acf"
+  } ]
+}

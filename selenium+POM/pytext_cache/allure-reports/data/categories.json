@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"wd\"]\"}\n  (Session info: chrome=90.0.4430.93)",
+      "children" : [ {
+        "name" : "test_02",
+        "uid" : "d83c8ccf46756b55",
+        "parentUid" : "1c3a08b3639b1f063544ed37246a1613",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626270164289,
+          "stop" : 1626270164519,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c3a08b3639b1f063544ed37246a1613"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

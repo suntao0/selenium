@@ -1,0 +1,41 @@
+{
+  "cc44dcff152cb6ba7db1f3745a07bc06" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d83c8ccf46756b55",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[name=\"wd\"]\"}\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1626270164289,
+        "stop" : 1626270164519,
+        "duration" : 230
+      }
+    } ]
+  },
+  "5f4fd2e1f703e4dff329acf03c57f2ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f36be17f1d1929be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626270164823,
+        "stop" : 1626270173779,
+        "duration" : 8956
+      }
+    } ]
+  }
+}

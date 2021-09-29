@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case",
+    "children" : [ {
+      "name" : "test_case",
+      "children" : [ {
+        "name" : "TestCase",
+        "children" : [ {
+          "name" : "test_02",
+          "uid" : "d83c8ccf46756b55",
+          "parentUid" : "2487a20d41845a96ebeae37a205135c0",
+          "status" : "broken",
+          "time" : {
+            "start" : 1626270164289,
+            "stop" : 1626270164519,
+            "duration" : 230
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_01[utxt0]",
+          "uid" : "f36be17f1d1929be",
+          "parentUid" : "2487a20d41845a96ebeae37a205135c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626270164823,
+            "stop" : 1626270173779,
+            "duration" : 8956
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'uname': 'qiushui', 'pwd': 123456}" ]
+        } ],
+        "uid" : "2487a20d41845a96ebeae37a205135c0"
+      } ],
+      "uid" : "749abf87a14fcff92207e6dec8cc2afc"
+    } ],
+    "uid" : "86abcc46617c603d802c3e378b13740e"
+  } ]
+}
